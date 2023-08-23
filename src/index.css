@@ -1,0 +1,8 @@
+body {margin: 0; padding : 0; }
+
+a{text-decoration: none; color: black;}
+img{object-fit: fill; border: none; margin: 0;}
+div, ul, li, a, p, canvas, span, em, section, header, article {margin: 0; padding: 0; /* box-sizing: border-box; */}
+li{list-style: none;}
+
+h1,h2,h3,h4,h5,h6{margin: 0; padding: 0;}

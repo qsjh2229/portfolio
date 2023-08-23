@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+.main-sec{ width: 100%; height: 0; 	padding-bottom: 56.26%;  background: #FFE247; position: relative; overflow: hidden;
+   .menu{ width: 50%; position: absolute; right: 4%; top: 8%; z-index: 1;
+   ul{width: 100%; display: flex; justify-content: space-between; 
+   li{ 
+      a{ font-size: 2rem; font-weight: bold;
+      padding: 10px 5px; color: #87BEFF; 
+      font-family: 'Archivo Black', sans-serif;
+   }}}
+   }
+.main-title-box{ 
+   span{display: block; position: absolute; font-size: 7rem; z-index: 1; color: #0047FF; font-size: bolder; font-family: 'Archivo Black', sans-serif;}
+   .main-title-1{ top: 15%;  left: 5%; }
+   .main-title-2{ top: 30%; left: 10%; }
+   .main-title-3{ top: 45%; left: 15%; }
+}
+
+.ci-box{  
+ 
+.circle-1{ position: absolute; width:37% ; padding-bottom: 35%; background: #FFE247; border: 10px solid white ; border-radius: 50%;  left: -10%; top: -15%;
+   animation-name: jaehee;
+   animation-duration: 3s;
+   animation-timing-function:   ease-in-out; /* 수정된 부분 */
+   animation-iteration-count: 1;
+   animation-direction: alternate;
+   animation-fill-mode: forwards;
+   .eye-1  {border-radius: 50%; background: white; width: 10%; padding-bottom: 15%; bottom:  45%; right: 25%; position: absolute;}
+   .eye-2  {border-radius: 50%; background: white; width: 10%; padding-bottom: 15%; bottom: 45%; right: 10%; position: absolute;}
+}
+@keyframes jaehee {
+   0% {
+    top:-80%;
+    transform: scale(0.3) rotate(10deg);
+
+   }
+   30% {
+      top: -2%;
+ 
+     
+      
+    
+
+   }
+   50% {
+    top:-25%;
+  
+   
+   }
+  /*  70% {
+    top:-18%
+   } */
+ 
+   100% {
+      transform: scale(1)   rotate(calc(360 * 4 )deg);
+      top: -15%
+      
+   }
+ }
+.circle-2{position: absolute; width:40% ; padding-bottom: 40%; background: #FFE247; border: 10px solid white ; border-radius: 50%;  right: -3%; top: -15%;
+   .eye-1{}
+   .eye-2{}
+}
+.circle-3{position: absolute; width:30% ; padding-bottom: 30%; background: #FFE247; border: 10px solid white ; border-radius: 50%;  left: -10%; top: 20%;
+   .eye-1{}
+   .eye-2{}
+}
+.circle-4{position: absolute; width:27% ; padding-bottom: 27%; background: #FFE247; border: 10px solid white ; border-radius: 50%;  left: 10%; bottom: -10%;
+   .eye-1{position: absolute; width:27% ; padding-bottom: 27%; background: #FFE247; border: 10px solid white ; border-radius: 50%;  left: 10%; bottom: -10%;}
+   .eye-2{border-radius: 50%; background: white; width: 10%; padding-bottom: 15%; bottom:  45%; left: 8%; position: absolute;}
+}
+.circle-5{ position: absolute; width:17% ; padding-bottom: 17%; background: #87BEFF;  border-radius: 50%;  right: 40%; bottom: 35%;
+   .eye-1{border-radius: 50%; background: white; width: 10%; padding-bottom: 15%; bottom:  50%; left: 20%; position: absolute;}
+   .eye-2{border-radius: 50%; background: white; width: 10%; padding-bottom: 15%; bottom:  50%; left: 40%; position: absolute;}
+  
+}
+.circle-6{
+   .eye-1{}
+   .eye-2{}
+}
+.circle-7{
+   position: absolute; width:30% ; padding-bottom: 30%; background: #FFE247; border: 10px solid white ; border-radius: 50%;  left: 30%; bottom: -15%;z-index: 2;
+   .eye-1{border-radius: 50%; background: white; width: 13%; padding-bottom: 20%; top:  10%; left: 30%; position: absolute;}
+   .eye-2{
+      border-radius: 50%; background: white; width: 13%; padding-bottom: 20%; top:  10%; left: 50%; position: absolute;
+   }
+}
+.circle-8{
+   .eye-1{}
+   .eye-2{}
+}
+.circle-9{
+   .eye-1{}
+   .eye-2{}
+}
+.circle-10{
+   .eye-1{}
+   .eye-2{}
+}
+.circle-11{ position: absolute; width:23% ; padding-bottom: 23%; background: #FFE247; border: 10px solid white ; border-radius: 50%;  left: -5%; bottom: -22%;
+   .eye-1{border-radius: 50%; background: white; width: 10%; padding-bottom: 15%; top:  30%; right: 20%; position: absolute;}
+   .eye-2{border-radius: 50%; background: white; width: 10%; padding-bottom: 15%; top:  30%; right: 40%; position: absolute;}
+}
+}
+
+}
