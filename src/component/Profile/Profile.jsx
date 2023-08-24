@@ -7,11 +7,12 @@ import pic from "../../img/pic.png"; // 이미지 경로를 import
 const Profile = () => {
    return (
       <section  id="profile" className='profile-sec'>
-         <div className='p-lbox'>
-            <h1>
-               Frontend <br />
+           <h1>
+              <span> Frontend</span> <br />
                Developer
             </h1>
+         <div className='p-lbox'>
+          
             <div className='imgbox'>
             <img src={pic} alt="프로필 이미지" /> 
             </div>
@@ -41,41 +42,45 @@ const Profile = () => {
                </div>
               
             </div>
-            <div className='sns-box'>  
-            <h2>SNS</h2>
-            <ul>
-               <li>
-                  <a href="https://www.instagram.com/chae_ook/">
-                    <BsInstagram className="insta" />
-                  </a>
-                  
-               </li>
-             <li>
-                  <a href="https://github.com/qsjh2229?tab=repositories">
-                     <AiFillGithub  className="git"/> 
+           <div className="con-wrap">
+               <div className='contact-box'>
+               <h2>CONTACT</h2>
+               <div className="con-trbox">
+                 <tr> 
+                    <td>Phone</td>
+                    <td>010 - 9802 - 3066</td>
+                  </tr>
+                 <tr> 
+                    <td>E-mail</td>
+                    <td>qaz03256@naver.com</td>
+                 </tr>
+                 <tr>
+                    <td>Instagram</td>
+                    <td>chae_ook</td>
+                 </tr>
+   
+               </div>
+               </div>
+               <div className='sns-box'>  
+               <h2>SNS</h2>
+               <ul>
+                  <li>
+                     <a href="https://www.instagram.com/chae_ook/" target="_blank" >
+                       <BsInstagram className="insta" />
                      </a>
-             </li>
-            </ul>
-            </div>
-            <div className='contact-box'>
-            <h2>CONTACT</h2>
-            <div className="con-trbox">
-              <tr> 
-                 <td>Phone</td>
-                 <td>010 - 9802 - 3066</td>
-               </tr>
-              <tr> 
-                 <td>E-mail</td>
-                 <td>qaz03256@naver.com</td>
-              </tr>
-              <tr>
-                 <td>Instagram</td>
-                 <td>chae_ook</td>
-              </tr>
-
-            </div>
-            </div>
-            <span className="des-big">꾸준히 성실하게 매일 나아가는 윤채욱 입니다</span>
+                     
+                  </li>
+                <li>
+                     <a href="https://github.com/qsjh2229?tab=repositories" target="_blank">
+                        <AiFillGithub  className="git"/> 
+                        </a>
+                </li>
+               </ul>
+               </div>
+           </div>
+          
+            <span className="des-big">꾸준히 성실하게 매일 나아가는 
+            <br /> <strong>윤채욱</strong> 입니다</span>
          </div>
       </section>
    )
