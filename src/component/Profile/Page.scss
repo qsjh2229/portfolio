@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+*{   font-family: "Archivo Black", sans-serif;}
+.profile-sec {
+   width: 100%; height: 100vh; background: #87beff; display: flex;
+   .p-lbox {
+      width: 40%; border-right: 1px solid red;
+      h1 {color: white; margin-right: 30%; font-size: 5rem; margin-top: 10%; margin-left: 13%; margin-bottom: 20%;
+      }
+      .imgbox { width: 550px; height: 500px;  border-radius: 10%; margin: 0 auto; position: relative;
+         img {
+           position: absolute;
+          height: 120%;
+   bottom: 5%; 
+         } 
+      }
+   }
+   .p-rbox {   width: 60%; padding-top: 8%;
+      .edu-box {
+         h2 {font-size: 3rem; margin-bottom: 20px;font-weight: bolder;
+         }
+         .edu-trbox {
+            tr {font-size: 1.3rem; 
+               td {padding: 0 20px; font-weight: 800; text-align: left;
+               }
+            }
+         }
+      }
+      .sns-box {
+         h2 { font-size: 4rem; margin-bottom: 20px;font-weight: bolder; margin-top: 30px;
+         }
+         ul {display: flex; width: 100%;
+            li {width:100px;
+               a {width: 90%;
+                  .git { 
+                 font-size: 3rem;
+                  }
+                  .insta {
+                     font-size: 3rem;
+                  }
+               }
+            }
+         }
+      }
+      .contact-box { margin-top: 40px;
+         h2 { font-size: 3rem; margin-bottom: 20px;font-weight: bolder; margin-top: 30px;
+         }
+         .con-trbox {
+            tr {font-size: 1.3rem; 
+               td {padding: 0 20px; font-weight: 800; text-align: left;
+               }
+            }
+         }
+      }
+      .des-big {margin-top: 40px; color: white; display: block; font-size: 7.5rem; font-weight: bold;
+      }
+   }
+}

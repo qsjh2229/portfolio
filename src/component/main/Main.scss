@@ -1,662 +1,658 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
 .main-sec {
-  width: 100%;
-  height: 0;
-  padding-bottom: 55.26%;
-  background: #ffe247;
-  position: relative;
-  overflow: hidden;
-  .menu {
-    width: 50%;
-    position: absolute;
-    right: 4%;
-    top: 8%;
-    z-index: 1;
-    ul {
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      li {
-        a {
-          font-size: 2rem;
-          font-weight: bold;
-          padding: 10px 5px;
-          color: #87beff;
-          font-family: "Archivo Black", sans-serif;
-        }
-      }
-    }
-  }
-  .main-title-box {
-    span {
-      display: block;
-      position: absolute;
-      font-size: 8rem;
-      z-index: 1;
-      color: #0047ff;
-      opacity: 0;
-      font-size: bolder;
-      font-family: "Archivo Black", sans-serif;
-      -webkit-animation-delay: 2.5s;
-      animation-name: jaeheeTitle;
-      animation-duration: 2s;
-      animation-timing-function: ease; /* 수정된 부분 */
-      animation-iteration-count: 1;
-      animation-direction: alternate;
-      animation-fill-mode: forwards;
-      transition: .3s;
-    }
-    @keyframes jaeheeTitle {
-      0% {
-         opacity: 0;
-     transform: scale(.8);
-      }
-      20% {
-         opacity: 1;
-     
-      }
-     40% {
-         opacity: 0;
-         transform: scale(.8);
-      }
-      60% {
-         opacity: 1;
-     
-      }
-      80% {
-         opacity: 0;
-         transform: scale(.8);
-      }
-     100% { transition: .3s;
-         opacity: 1;
-     
-      }
-   
-    }
-    .main-title-1 {
-      top: 18%;
-      left: 5%;
-    }
-    .main-title-2 {
-      top: 33%;
-      left: 10%;
-    }
-    .main-title-3 {
-      top: 48%;
-      left: 15%;
-    }
-  }
-
-  .ci-box {
-    .circle-1 {
-      position: absolute;
-      width: 37%;
-      padding-bottom: 35%;
-      background: #ffe247;
-      border: 10px solid white;
-      border-radius: 50%;
-      left: -10%;
-      top: -80%;
-      -webkit-animation-delay: 1.5s;
-      animation-name: jaehee;
-      animation-duration: 2s;
-      animation-timing-function: ease-in-out; /* 수정된 부분 */
-      animation-iteration-count: 1;
-      animation-direction: alternate;
-      animation-fill-mode: forwards;
-      .eye-1 {
-        border-radius: 50%;
-        background: white;
-        width: 10%;
-        padding-bottom: 15%;
-        bottom: 45%;
-        right: 25%;
-        position: absolute;
-      }
-      .eye-2 {
-        border-radius: 50%;
-        background: white;
-        width: 10%;
-        padding-bottom: 15%;
-        bottom: 45%;
-        right: 10%;
-        position: absolute;
-      }
-    }
-    @keyframes jaehee {
-      0% {
-        
-        transform: scale(0.3) 
-      }
-      30% {
-        top: -2%;
-      }
-      50% {
-        top: -25%;
-      }
-
-      100% {
-        transform: scale(1) rotate(calc(360 * 4) deg);
-        top: -15%;
-      }
-    }
-    .circle-2 {
-      position: absolute;
+   width: 100%;
+   height: 0;
+   padding-bottom: 55.26%;
+   background: #ffe247;
+   position: relative;
+   overflow: hidden;
+   .menu {
       width: 40%;
-      padding-bottom: 40%;
-      background: #ffe247;
-      border: 10px solid white;
-      border-radius: 50%;
-      right: -3%;
-      top: -120%;
-      -webkit-animation-delay: 1.7s;
-      animation-name: jaehee1;
-      animation-duration: 2s;
-      animation-timing-function: ease-in-out; /* 수정된 부분 */
-      animation-iteration-count: 1;
-      animation-direction: alternate;
-      animation-fill-mode: forwards;
-      .eye-1 {
-      }
-      .eye-2 {
-      }
-      @keyframes jaehee1 {
-         0% {
-           
-           transform:scale(.8) rotate(10deg);
-         }
-         30% {
-           top: -2%;
-         }
-         50% {
-           top: -25%;
-         }
-   
-         100% {
-           transform: scale(1) rotate(calc(360 * 4) deg);
-           top: -15%;
-         }
-       }
-    }
-    .circle-3 {
       position: absolute;
-      width: 35%;
-      padding-bottom: 35%;
-      background: #ffe247;
-      border: 10px solid white;
-      border-radius: 50%;
-      left: -15%;
-      top: 200%;
-      -webkit-animation-delay: 1.3s;
-      animation-name: jaehee3;
-      animation-duration: 2.5s;
-      animation-timing-function: ease-in-out; /* 수정된 부분 */
-      animation-iteration-count: 1;
-      animation-direction: alternate;
-      animation-fill-mode: forwards;
-      .eye-1 {
+      position: fixed; 
+      right: 4%;
+      top: 8%;
+      z-index: 40;
+      ul {
+         width: 100%;
+         display: flex;
+         justify-content: space-between;
+         li {
+            a {
+               font-size: 3rem;
+               font-weight: bold;
+               padding: 10px 5px;
+               color: #87beff;
+               font-family: "Archivo Black", sans-serif;
+            }
+         }
       }
-      .eye-2 {
+   }
+   .main-title-box {
+      span {
+         display: block;
+         position: absolute;
+         font-size: 13rem;
+         z-index: 1;
+         color: #0047ff;
+         opacity: 0;
+         font-size: bolder;
+         font-family: "Archivo Black", sans-serif;
+         -webkit-animation-delay: 2.5s;
+         animation-name: jaeheeTitle;
+         animation-duration: 2s;
+         animation-timing-function: ease; /* 수정된 부분 */
+         animation-iteration-count: 1;
+         animation-direction: alternate;
+         animation-fill-mode: forwards;
+         transition: 0.3s;
       }
-      @keyframes jaehee3 {
+      @keyframes jaeheeTitle {
          0% {
-           
-         
-         }
-         30% {
-           top: 15%;
-         }
-         50% {
-           top: 25%;
-         }
-   
-         100% {
-           transform: scale(1) ;
-           top: 20%;
-         }
-       }
-    }
-    .circle-4 {
-      position: absolute;
-      width: 27%;
-      padding-bottom: 27%;
-      background: #ffe247;
-      border: 10px solid white;
-      border-radius: 50%;
-      left: 10%;
-      bottom: -1000%;
-      -webkit-animation-delay: .5s;
-      animation-name: jaehee4;
-      animation-duration: 2.5s;
-      animation-timing-function: ease-in-out; /* 수정된 부분 */
-      animation-iteration-count: 1;
-      animation-direction: alternate;
-      animation-fill-mode: forwards;
-      .eye-1 {
-        position: absolute;
-        width: 27%;
-        padding-bottom: 27%;
-        background: #ffe247;
-        border: 10px solid white;
-        border-radius: 50%;
-        left: 10%;
-        bottom: -10%;
-      }
-      .eye-2 {
-        border-radius: 50%;
-        background: white;
-        width: 10%;
-        padding-bottom: 15%;
-        bottom: 45%;
-        left: 8%;
-        position: absolute;
-      }
-      @keyframes jaehee4 {
-         0% {
-           
-      
-         }
-         30% {
-            bottom: -10%;
-          
-         }
-         50% {
-            bottom: -25%;
-       
-         }
-   
-         100% {
-           
-            bottom: -10%;
-         }
-       }
-    }
-    .circle-5 {
-      position: absolute;
-      width: 17%;
-      padding-bottom: 17%;
-      background: #87beff;
-      border-radius: 50%;
-      right: 35%;
-      bottom: 1135%;
-      -webkit-animation-delay: 2.5s;
-      animation-name: jaehee5;
-      animation-duration: 2s;
-      animation-timing-function: ease-in-out; /* 수정된 부분 */
-      animation-iteration-count: 1;
-      animation-direction: alternate;
-      animation-fill-mode: forwards;
-      
-      .eye-1 {
-        border-radius: 50%;
-        background: white;
-        width: 10%;
-        padding-bottom: 15%;
-        bottom: 50%;
-        left: 20%;
-        position: absolute;
-      }
-      .eye-2 {
-        border-radius: 50%;
-        background: white;
-        width: 10%;
-        padding-bottom: 15%;
-        bottom: 50%;
-        left: 40%;
-        position: absolute;
-      }
-      @keyframes jaehee5 {
-         0% {opacity: 0;
-           transform: scale(.4);
-            bottom: 1135%;
-         }
-         10% {
-           
-            bottom: 35%;
-         }
-         30% {
-            bottom: 50%; transform: rotate(30deg);
-          
-         }
-         50% {
-            bottom: 35%;
-       
-         }
-         65% {
-            bottom: 45%; transform: rotate(-20deg);
-       
-         }
-         80% {
-            bottom: 35%;
-       
-         }
-         90% {
-            bottom: 40%;transform: rotate(10deg);
-       
-         } 
-   
-         100% {
-           
-            bottom: 35%;
-         }
-       }
-    }
-    .circle-6 {
-      position: absolute;
-      width: 35%;
-      padding-bottom: 35%;
-      background: #ffe247;
-      border: 10px solid white;
-      border-radius: 50%;
-      right: -3%;
-      top: 1000%;
-      -webkit-animation-delay: .8s;
-      animation-name: jaehee6;
-      animation-duration: 1.5s;
-      animation-timing-function: ease; /* 수정된 부분 */
-      animation-iteration-count: 1;
-      animation-direction: alternate;
-      animation-fill-mode: forwards;
-      .eye-1 {
-        border-radius: 50%;
-        background: white;
-        width: 13%;
-        padding-bottom: 20%;
-        top: 25%;
-        left: 5%;
-        position: absolute;
-      }
-      .eye-2 {
-        border-radius: 50%;
-        background: white;
-        width: 13%;
-        padding-bottom: 20%;
-        top: 20%;
-        left: 28%;
-        position: absolute;
-      }
-      @keyframes jaehee6 {
-         0% {
-            top: 1000%;
-      
-         }
-         30% {
-            top: 25%;
-          
-         }
-         50% {
-            top: 50%;
-            transform: scale(1) rotate(30deg);
-         }
-   
-         100% {
-           
-            top: 25%;
-         }
-       }
-    }
-    .circle-7 {
-      position: absolute;
-      width: 30%;
-      padding-bottom: 30%;
-      background: #ffe247;
-      border: 10px solid white;
-      border-radius: 50%;
-      left: 30%;
-      bottom: -15%;
-      z-index: 2;
-      animation-name: jaehee7;
-      animation-duration: 1.5s;
-      animation-timing-function: ease; /* 수정된 부분 */
-      animation-iteration-count: 1;
-      animation-direction: alternate;
-      animation-fill-mode: forwards;
-      .eye-1 {
-        border-radius: 50%;
-        background: white;
-        width: 13%;
-        padding-bottom: 20%;
-        top: 10%;
-        left: 30%;
-        position: absolute;
-      }
-      .eye-2 {
-        border-radius: 50%;
-        background: white;
-        width: 13%;
-        padding-bottom: 20%;
-        top: 10%;
-        left: 50%;
-        position: absolute;
-      }
-      @keyframes jaehee7 {
-         0% {
-            bottom: 100%;
-      
-         }
-         30% {
-            bottom: -15%; 
-          
-         }
-         50% {
-            bottom: -5%;
-            transform: scale(1) rotate(30deg);
-         }
-   
-         100% {
-           
-           bottom:  -15%;
-         }
-       }
-    }
-    .circle-8 {
-      position: absolute;
-      width: 18%;
-      padding-bottom: 18%;
-      background: #ffe247;
-      border: 10px solid white;
-      border-radius: 50%;
-      right: 27%;
-      bottom: 180%;
-      -webkit-animation-delay: 1.3s;
-      animation-name: jaehee8;
-      animation-duration: 1.2s;
-      animation-timing-function: ease-in-out; /* 수정된 부분 */
-      animation-iteration-count: 1;
-      animation-direction: alternate;
-      animation-fill-mode: forwards;
-      .eye-1 {
-        border-radius: 50%;
-        background: white;
-        width: 13%;
-        padding-bottom: 20%;
-        top: 20%;
-        left: 18%;
-        position: absolute;
-      }
-      .eye-2 {
-      }
-      @keyframes jaehee8 {
-         0% {
-            bottom: 100%;
-      
-         }
-         30% {
-            bottom: 18%; 
-          
-         }
-         50% {
-            bottom: 25%;
-            transform: scale(1) rotate(-30deg)
-         }
-   
-         100% {
-           
-            bottom: 18%;
-         }
-       }
-    }
-    .circle-9 {
-      position: absolute;
-      width: 33%;
-      padding-bottom: 33%;
-      background: #ffe247;
-      border: 10px solid white;
-      border-radius: 50%;
-      right: -10%;
-      bottom: 1115%;
-      -webkit-animation-delay: .1s;
-      animation-name: jaehee9;
-      animation-duration: 3s;
-      animation-timing-function: ease; /* 수정된 부분 */
-      animation-iteration-count: 1;
-      animation-direction: alternate;
-      animation-fill-mode: forwards;
-      .eye-1 {
-        border-radius: 50%;
-        background: white;
-        width: 13%;
-        padding-bottom: 20%;
-        top: 25%;
-        left: 5%;
-        position: absolute;
-      }
-      .eye-2 {
-        border-radius: 50%;
-        background: white;
-        width: 13%;
-        padding-bottom: 20%;
-        top: 20%;
-        left: 28%;
-        position: absolute;
-      }
-      @keyframes jaehee9 {
-         0% {
-           
-      
+            opacity: 0;
+            transform: scale(0.8);
          }
          20% {
-            bottom: -15%;
-          
+            opacity: 1;
          }
          40% {
-            bottom: 20%;
-          
+            opacity: 0;
+            transform: scale(0.8);
          }
-         50% {
-            bottom: -15%;
-            transform: scale(1) rotate(-50deg)
+         60% {
+            opacity: 1;
          }
-         70% {
-            bottom: -1%;
-           
+         80% {
+            opacity: 0;
+            transform: scale(0.8);
          }
-   
          100% {
-           
-            bottom: -15%;
+            transition: 0.3s;
+            opacity: 1;
          }
-       }
-    }
-    .circle-10 {
-      position: absolute;
-      width: 25%;
-      padding-bottom: 25%;
-      background: #ffe247;
-      border: 10px solid white;
-      border-radius: 50%;
-      right: 18%;
-      bottom: 1105%;
-      -webkit-animation-delay: .5s;
-      animation-name: jaehee10;
-      animation-duration: 1.8s;
-      animation-timing-function: ease; /* 수정된 부분 */
-      animation-iteration-count: 1;
-      animation-direction: alternate;
-      animation-fill-mode: forwards;
-      .eye-1 {
       }
-      .eye-2 {
+      .main-title-1 {
+         top: 18%;
+         left: 5%;
       }
-      @keyframes jaehee10 {
+      .main-title-2 {
+         top: 33%;
+         left: 10%;
+      }
+      .main-title-3 {
+         top: 48%;
+         left: 15%;
+      }
+   }
+
+   .ci-box {
+      .circle-1 {
+         position: absolute;
+         width: 37%;
+         padding-bottom: 35%;
+         background: #ffe247;
+         border: 10px solid white;
+         border-radius: 50%;
+         left: -10%;
+         top: -80%;
+         -webkit-animation-delay: 1.5s;
+         animation-name: jaehee;
+         animation-duration: 2s;
+         animation-timing-function: ease-in-out; /* 수정된 부분 */
+         animation-iteration-count: 1;
+         animation-direction: alternate;
+         animation-fill-mode: forwards;
+         .eye-1 {
+            border-radius: 50%;
+            background: white;
+            width: 10%;
+            padding-bottom: 15%;
+            bottom: 45%;
+            right: 25%;
+            position: absolute;
+         }
+         .eye-2 {
+            border-radius: 50%;
+            background: white;
+            width: 10%;
+            padding-bottom: 15%;
+            bottom: 45%;
+            right: 10%;
+            position: absolute;
+         }
+      }
+      @keyframes jaehee {
          0% {
-           
-      
+            transform: scale(0.3);
          }
          30% {
-            bottom: -15%;
-          
+            top: -2%;
          }
          50% {
-            bottom: 25%;
-            transform: scale(1) rotate(-30deg)
+            top: -25%;
          }
-   
+
          100% {
-           
-            bottom: -15%;
+            transform: scale(1) rotate(calc(360 * 4) deg);
+            top: -15%;
          }
-       }
-    }
-    .circle-11 {
-      position: absolute;
-      width: 23%;
-      padding-bottom: 23%;
-      background: #ffe247;
-      border: 10px solid white;
-      border-radius: 50%;
-      left: -5%;
-      bottom: 2002%;
-      animation-name: jaehee11;
-      animation-duration: 3s;
-      animation-timing-function: ease; /* 수정된 부분 */
-      animation-iteration-count: 1;
-      animation-direction: alternate;
-      animation-fill-mode: forwards;
-      .eye-1 {
-        border-radius: 50%;
-        background: white;
-        width: 10%;
-        padding-bottom: 15%;
-        top: 30%;
-        right: 20%;
-        position: absolute;
       }
-      .eye-2 {
-        border-radius: 50%;
-        background: white;
-        width: 10%;
-        padding-bottom: 15%;
-        top: 30%;
-        right: 40%;
-        position: absolute;
+      .circle-2 {
+         position: absolute;
+         width: 40%;
+         padding-bottom: 40%;
+         background: #ffe247;
+         border: 10px solid white;
+         border-radius: 50%;
+         right: -3%;
+         top: -120%;
+         -webkit-animation-delay: 1.7s;
+         animation-name: jaehee1;
+         animation-duration: 2s;
+         animation-timing-function: ease-in-out; /* 수정된 부분 */
+         animation-iteration-count: 1;
+         animation-direction: alternate;
+         animation-fill-mode: forwards;
+         .eye-1 {
+         }
+         .eye-2 {
+         }
+         @keyframes jaehee1 {
+            0% {
+               transform: scale(0.8) rotate(10deg);
+            }
+            30% {
+               top: -2%;
+            }
+            50% {
+               top: -25%;
+            }
+
+            100% {
+               transform: scale(1) rotate(calc(360 * 4) deg);
+               top: -15%;
+            }
+         }
       }
-    }
-    @keyframes jaehee11 {
-      0% {
-         bottom: 52%;
-   
+      .circle-3 {
+         position: absolute;
+         width: 35%;
+         padding-bottom: 35%;
+         background: #ffe247;
+         border: 10px solid white;
+         border-radius: 50%;
+         left: -15%;
+         top: 200%;
+         -webkit-animation-delay: 1.3s;
+         animation-name: jaehee3;
+         animation-duration: 2.5s;
+         animation-timing-function: ease-in-out; /* 수정된 부분 */
+         animation-iteration-count: 1;
+         animation-direction: alternate;
+         animation-fill-mode: forwards;
+         .eye-1 {
+         }
+         .eye-2 {
+         }
+         @keyframes jaehee3 {
+            0% {
+            }
+            30% {
+               top: 15%;
+            }
+            50% {
+               top: 25%;
+            }
+
+            100% {
+               transform: scale(1);
+               top: 20%;
+            }
+         }
       }
-      10% {
-         bottom: -22%;
-   
+      .circle-4 {
+         position: absolute;
+         width: 27%;
+         padding-bottom: 27%;
+         background: #ffe247;
+         border: 10px solid white;
+         border-radius: 50%;
+         left: 10%;
+         bottom: -1000%;
+         -webkit-animation-delay: 0.5s;
+         animation-name: jaehee4;
+         animation-duration: 2.5s;
+         animation-timing-function: ease-in-out; /* 수정된 부분 */
+         animation-iteration-count: 1;
+         animation-direction: alternate;
+         animation-fill-mode: forwards;
+         .eye-1 {
+            position: absolute;
+            width: 27%;
+            padding-bottom: 27%;
+            background: #ffe247;
+            border: 10px solid white;
+            border-radius: 50%;
+            left: 10%;
+            bottom: -10%;
+         }
+         .eye-2 {
+            border-radius: 50%;
+            background: white;
+            width: 10%;
+            padding-bottom: 15%;
+            bottom: 45%;
+            left: 8%;
+            position: absolute;
+         }
+         @keyframes jaehee4 {
+            0% {
+            }
+            30% {
+               bottom: -10%;
+            }
+            50% {
+               bottom: -25%;
+            }
+
+            100% {
+               bottom: -10%;
+            }
+         }
       }
-      30% {
-         bottom: 22%;
+      .circle-5 { 
+       
+         position: absolute;
+         width: 17%;
+         padding-bottom: 17%;
+         background: #87beff;
+         border-radius: 50%;
+         right: 35%;
+         bottom: 1135%;
+     
+          
+      
+            
+         .eye-1 {
+            border-radius: 50%;
+            background: white;
+            width: 10%;
+            padding-bottom: 15%;
+            bottom: 50%;
+            left: 20%;
+            position: absolute;
+         }
+         .eye-2 {
+            border-radius: 50%;
+            background: white;
+            width: 10%;
+            padding-bottom: 15%;
+            bottom: 50%;
+            left: 40%;
+            position: absolute;
+         }
        
       }
-      50% {
-         bottom: -22%;
-      }
-      70% {
-         bottom: -5%;
-         transform: scale(1) rotate(-30deg)
-      }
+      .c-5animate2 {
+         
+         animation-name: move;
+         bottom: 35%;
+         right: 30%;
+         animation-duration: .8s;
+         animation-timing-function: ease-in-out; /* 수정된 부분 */
+         animation-iteration-count: infinite;
+         animation-direction: alternate;
+         animation-fill-mode: forwards;
+         @keyframes move {
+            0% {
+               transform: rotate(10deg);
+               bottom: 35%;
+            }
+      
+            100% {
+               transform: scale(1.1) rotate(30deg);
+               bottom: 35%;
 
-      100% {
-        
-         bottom: -22%;
+            }
+         }
       }
-    }
-  }
+      .cAnimate{
+         animation-delay: 2.5s;
+         animation-name: jaehee5;
+         animation-duration: 2s;
+         animation-timing-function: ease-in-out; /* 수정된 부분 */
+         animation-iteration-count: 1;
+         animation-direction: alternate;
+         animation-fill-mode: forwards;
+         @keyframes jaehee5 {
+            0% {
+               opacity: 0;
+               transform: scale(0.4);
+               bottom: 1135%;
+            }
+            10% {
+               bottom: 35%;
+            }
+            30% {
+               bottom: 50%;
+               transform: rotate(30deg);
+            }
+            50% {
+               bottom: 35%;
+               opacity: 1;
+            }
+            65% {
+               bottom: 45%;
+               transform: rotate(-20deg);
+            }
+            80% {
+               bottom: 35%;
+            }
+            90% {
+               bottom: 40%;
+              
+            }
+
+            100% {
+               bottom: 35%;
+               transform: rotate(10deg);
+               right: 30%;
+            }
+         }
+      }
+      .circle-6 {
+         position: absolute;
+         width: 35%;
+         padding-bottom: 35%;
+         background: #ffe247;
+         border: 10px solid white;
+         border-radius: 50%;
+         right: -3%;
+         top: 1000%;
+         -webkit-animation-delay: 0.8s;
+         animation-name: jaehee6;
+         animation-duration: 1.5s;
+         animation-timing-function: ease; /* 수정된 부분 */
+         animation-iteration-count: 1;
+         animation-direction: alternate;
+         animation-fill-mode: forwards;
+         .eye-1 {
+            border-radius: 50%;
+            background: white;
+            width: 13%;
+            padding-bottom: 20%;
+            top: 25%;
+            left: 5%;
+            position: absolute;
+         }
+         .eye-2 {
+            border-radius: 50%;
+            background: white;
+            width: 13%;
+            padding-bottom: 20%;
+            top: 20%;
+            left: 28%;
+            position: absolute;
+         }
+         @keyframes jaehee6 {
+            0% {
+               top: 1000%;
+            }
+            30% {
+               top: 25%;
+            }
+            50% {
+               top: 50%;
+               transform: scale(1) rotate(30deg);
+            }
+
+            100% {
+               top: 25%;
+            }
+         }
+      }
+      .circle-7 {
+         position: absolute;
+         width: 30%;
+         padding-bottom: 30%;
+         background: #ffe247;
+         border: 10px solid white;
+         border-radius: 50%;
+         left: 30%;
+         bottom: -15%;
+         z-index: 2;
+         animation-name: jaehee7;
+         animation-duration: 1.5s;
+         animation-timing-function: ease; /* 수정된 부분 */
+         animation-iteration-count: 1;
+         animation-direction: alternate;
+         animation-fill-mode: forwards;
+         .eye-1 {
+            border-radius: 50%;
+            background: white;
+            width: 13%;
+            padding-bottom: 20%;
+            top: 10%;
+            left: 30%;
+            position: absolute;
+         }
+         .eye-2 {
+            border-radius: 50%;
+            background: white;
+            width: 13%;
+            padding-bottom: 20%;
+            top: 10%;
+            left: 50%;
+            position: absolute;
+         }
+         @keyframes jaehee7 {
+            0% {
+               bottom: 100%;
+            }
+            30% {
+               bottom: -15%;
+            }
+            50% {
+               bottom: -5%;
+               transform: scale(1) rotate(30deg);
+            }
+
+            100% {
+               bottom: -15%;
+            }
+         }
+      }
+      .circle-8 {
+         position: absolute;
+         width: 18%;
+         padding-bottom: 18%;
+         background: #ffe247;
+         border: 10px solid white;
+         border-radius: 50%;
+         right: 27%;
+         bottom: 180%;
+         -webkit-animation-delay: 1.3s;
+         animation-name: jaehee8;
+         animation-duration: 1.2s;
+         animation-timing-function: ease-in-out; /* 수정된 부분 */
+         animation-iteration-count: 1;
+         animation-direction: alternate;
+         animation-fill-mode: forwards;
+         .eye-1 {
+            border-radius: 50%;
+            background: white;
+            width: 13%;
+            padding-bottom: 20%;
+            top: 20%;
+            left: 18%;
+            position: absolute;
+         }
+         .eye-2 {
+         }
+         @keyframes jaehee8 {
+            0% {
+               bottom: 100%;
+            }
+            30% {
+               bottom: 18%;
+            }
+            50% {
+               bottom: 25%;
+               transform: scale(1) rotate(-30deg);
+            }
+
+            100% {
+               bottom: 18%;
+            }
+         }
+      }
+      .circle-9 {
+         position: absolute;
+         width: 33%;
+         padding-bottom: 33%;
+         background: #ffe247;
+         border: 10px solid white;
+         border-radius: 50%;
+         right: -10%;
+         bottom: 1115%;
+         -webkit-animation-delay: 0.1s;
+         animation-name: jaehee9;
+         animation-duration: 3s;
+         animation-timing-function: ease; /* 수정된 부분 */
+         animation-iteration-count: 1;
+         animation-direction: alternate;
+         animation-fill-mode: forwards;
+         .eye-1 {
+            border-radius: 50%;
+            background: white;
+            width: 13%;
+            padding-bottom: 20%;
+            top: 25%;
+            left: 5%;
+            position: absolute;
+         }
+         .eye-2 {
+            border-radius: 50%;
+            background: white;
+            width: 13%;
+            padding-bottom: 20%;
+            top: 20%;
+            left: 28%;
+            position: absolute;
+         }
+         @keyframes jaehee9 {
+            0% {
+            }
+            20% {
+               bottom: -15%;
+            }
+            40% {
+               bottom: 20%;
+            }
+            50% {
+               bottom: -15%;
+               transform: scale(1) rotate(-50deg);
+            }
+            70% {
+               bottom: -1%;
+            }
+
+            100% {
+               bottom: -15%;
+            }
+         }
+      }
+      .circle-10 {
+         position: absolute;
+         width: 25%;
+         padding-bottom: 25%;
+         background: #ffe247;
+         border: 10px solid white;
+         border-radius: 50%;
+         right: 18%;
+         bottom: 1105%;
+         -webkit-animation-delay: 0.5s;
+         animation-name: jaehee10;
+         animation-duration: 1.8s;
+         animation-timing-function: ease; /* 수정된 부분 */
+         animation-iteration-count: 1;
+         animation-direction: alternate;
+         animation-fill-mode: forwards;
+         .eye-1 {
+         }
+         .eye-2 {
+         }
+         @keyframes jaehee10 {
+            0% {
+            }
+            30% {
+               bottom: -15%;
+            }
+            50% {
+               bottom: 25%;
+               transform: scale(1) rotate(-30deg);
+            }
+
+            100% {
+               bottom: -15%;
+            }
+         }
+      }
+      .circle-11 {
+         position: absolute;
+         width: 23%;
+         padding-bottom: 23%;
+         background: #ffe247;
+         border: 10px solid white;
+         border-radius: 50%;
+         left: -5%;
+         bottom: 2002%;
+         animation-name: jaehee11;
+         animation-duration: 3s;
+         animation-timing-function: ease; /* 수정된 부분 */
+         animation-iteration-count: 1;
+         animation-direction: alternate;
+         animation-fill-mode: forwards;
+         .eye-1 {
+            border-radius: 50%;
+            background: white;
+            width: 10%;
+            padding-bottom: 15%;
+            top: 30%;
+            right: 20%;
+            position: absolute;
+         }
+         .eye-2 {
+            border-radius: 50%;
+            background: white;
+            width: 10%;
+            padding-bottom: 15%;
+            top: 30%;
+            right: 40%;
+            position: absolute;
+         }
+      }
+      @keyframes jaehee11 {
+         0% {
+            bottom: 52%;
+         }
+         10% {
+            bottom: -22%;
+         }
+         30% {
+            bottom: 22%;
+         }
+         50% {
+            bottom: -22%;
+         }
+         70% {
+            bottom: -5%;
+            transform: scale(1) rotate(-30deg);
+         }
+
+         100% {
+            bottom: -22%;
+         }
+      }
+   }
 }

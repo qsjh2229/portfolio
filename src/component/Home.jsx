@@ -1,5 +1,6 @@
 import React from "react"
 import Main from "./main/Main"
+import Profile from "./Profile/Profile"
 
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
       <main>
        
          <Main />
+         <a href="#profile"><Profile></Profile></a>
       </main>
    )
 }
