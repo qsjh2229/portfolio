@@ -1,23 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
 *{   font-family: "Archivo Black", sans-serif;}
 .profile-sec {  overflow: hidden;
-   width: 100%;  background: #87beff; display: flex; position: relative;   padding-bottom: 55.26%; height: 0;
-   h1 {color: white;  font-size: 5rem; position: absolute; top: 10%;left: 13%;
-      span{left: -25%; position: absolute;}
+   width: 100%;  background: #87beff;  position: relative;   height: 100vh; padding-left: 2.5%; padding-top: 5%; box-sizing: border-box;
+   h1 {color: white;  font-size: 5rem;  max-width: 1440px; width: 100%; display: block; 
+      span{  position: absolute;}
    }
+  .pr-wrap { max-width: 1440px; width: 100%; display: flex; justify-content: center; text-align: center;
    .p-lbox { position: relative;  padding-bottom: 55.26%;
-      width: 40%; display: flex; justify-content: center; text-align: center;
+      width: 40%; 
   
      
          img {
-      position: absolute; left: 10%;
+   
          width:55rem;
-   top: 20%; 
-   left: 5%; 
+ 
          } 
       
    }
-   .p-rbox {   width: 60%; padding-top: 11%;  
+   .p-rbox {   width: 60%;  text-align: left; margin-top: -3%; box-sizing: border-box;
       .edu-box {
          h2 {font-size: 3rem; margin-bottom: 20px;font-weight: bolder;
          }
@@ -58,8 +58,25 @@
       .des-big {margin-top: 30px; color: rgba(255, 255, 255, 0.902); display: block; font-size: 6.5rem; font-weight: bold;
          strong{font-size: 7.3rem; font-weight: bolder; color: white;}
       }
-   }
-   .cir-1{ position: absolute; width: 30%; padding-bottom: 30%; border:10px solid white ; border-radius: 100%; right: -10%; bottom: -20%;
+   }}
+   .cir-1{ position: absolute; width: 30%; padding-bottom: 30%; border:10px solid white ; border-radius: 100%; right: -10%; bottom: -20%;   
+      animation-name: cir1;
+      animation-duration: 4s;
+      animation-timing-function: ease; /* 수정된 부분 */
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      animation-fill-mode: forwards;
+      transition: 0.3s;
+      @keyframes cir1 {
+         0% {
+         transform: rotate(5deg);
+         }
+       
+         100% {
+            transform: rotate(-10deg);
+         }
+      }
+
       .eye-1{ width: 8%; padding-bottom: 20%; position: absolute; top: 15%; left: 13%; background: white; border-radius: 50%;} 
       .eye-2{ width: 8%; padding-bottom: 20%; position: absolute; top: 13%; left: 28%; background: white; border-radius: 50%;} 
    }
@@ -68,49 +85,166 @@
 
 // 모바일
 
-@import "./mixin";
+@media all and (min-width:1284px) and (max-width:1540px) { 
+  
+  
+} 
 
 
-
-
-// 데스크탑  1500px ~ 1800px;
-@include desktop {
-	
-}
-
-
-// 노트북에서 데스크탑   1024px ~ 1500px 
-@include desktopToLaptop {
-	
-}
-
-
-// 노트북 960px ~ 1024px
-@include laptop {
+/* 테블릿 가로 (해상도 1023px ~ 1284px)*/ 
+@media all and (min-width:1023px) and (max-width:1284px) { 
+   .profile-sec {  
+    
+      h1 {
+         span{   }
+      }
+     .pr-wrap { 
+      .p-lbox { 
+        
+     margin-top: 3%;
+        
+            img {
+      
+          
+    
+            } 
+         
+      }
+      .p-rbox {   margin-top: 0%; 
+         .edu-box {
+            h2 {font-size: 3rem; margin-bottom: 25px;font-weight: bolder;
+            }
+            .edu-trbox {
+               tr {font-size: 1.8rem; font-weight: bold;
+                  td {padding: 0 20px; font-weight: 800; text-align: left;
+                  }
+               }
+            }
+         }
+       .con-wrap{ 
+       align-items: start;  flex-direction: column; 
+       .sns-box {
+            h2 { font-size: 3rem; margin-bottom: 25px;
+            }
+            ul {display: flex; width: 100%;
+               li {width:5rem; margin-right: 20px;
+                  a {
+                     .git { 
+                    font-size: 5rem;
+                     }
+                     .insta {
+                        font-size: 5rem; 
+                     }
+                  }
+               }
+            }
+         }
+         .contact-box { margin-top: 10px; margin-right: 10%;
+            h2 {  margin-bottom: 25px;
+            }
+            .con-trbox {
+               tr {font-size: 1.8rem; font-weight: bold;
+                  td {padding: 0 20px; font-weight: 800; text-align: left;
+                  }
+               }
+            }
+         }}
+         .des-big {margin-top: 30px; color: rgba(255, 255, 255, 0.902); display: block; font-size: 6.5rem; font-weight: bold;
+            strong{font-size: 7.3rem; font-weight: bolder; color: white;}
+         }
+      }}
+      .cir-1{ position: absolute; width: 30%; padding-bottom: 30%; border:10px solid white ; border-radius: 100%; right: -10%; bottom: -20%;
+         .eye-1{ width: 8%; padding-bottom: 20%; position: absolute; top: 15%; left: 13%; background: white; border-radius: 50%;} 
+         .eye-2{ width: 8%; padding-bottom: 20%; position: absolute; top: 13%; left: 28%; background: white; border-radius: 50%;} 
+      }
+   }
    
-	
-}
+   
+ 
 
+} 
+/* 테블릿 가로 (해상도 768px ~ 1023px)*/ 
+@media all and (min-width:768px) and (max-width:1023px) { 
 
-// 태블릿에서 노트북 720px ~ 960px
-@include laptopToTablet {
+   .profile-sec {  
+    
+      h1 {
+         span{   }
+      }
+     .pr-wrap { flex-direction: column; text-align: left;
+      .p-lbox { 
+         width: 100%;  
+        padding: 0;
+     margin-top: 0%;
+        
+           .imgbox{ margin-top: 3%;
+            img {
+      
+          
+    
+            } }
+         
+      }
+      .p-rbox {   margin-top: -20%;  padding: 0 5%;width: 100%; text-align: right;
+         .edu-box { text-align: right;
+            h2 {font-size: 3rem; margin-bottom: 25px;font-weight: bolder;width: 100%;
+            }
+            .edu-trbox { width: 100%; text-align: right;
+               tr {font-size: 2rem; font-weight: bold;
+                  td {padding: 0 10px; font-weight: 800;  text-align: right;
+                  }
+               }
+            }
+         }
+       .con-wrap{ 
+        flex-direction: row;  align-items: center; justify-content: end;
+       .sns-box {
+            h2 { font-size: 3rem; margin-bottom: 25px;
+            }
+            ul {display: flex; width: 100%;
+               li {width:5rem; margin-right: 20px;
+                  a {
+                     .git { 
+                    font-size: 5rem;
+                     }
+                     .insta {
+                        font-size: 5rem; 
+                     }
+                  }
+               }
+            }
+         }
+         .contact-box { margin-top: 10px; margin-right: 10%;
+            h2 {  margin-bottom: 25px;
+            }
+            .con-trbox {
+               tr {font-size: 1.8rem; font-weight: bold;
+                  td {padding: 0 20px; font-weight: 800; text-align: left;
+                  }
+               }
+            }
+         }}
+         .des-big {position: absolute; top: 20%;right: 3%; text-align: right;
+         }
+      }}
+      .cir-1{ position: absolute; width: 30%; padding-bottom: 30%; border:10px solid white ; border-radius: 100%; right: -10%; bottom: -13%;
+         .eye-1{ width: 8%; padding-bottom: 20%; position: absolute; top: 15%; left: 13%; background: white; border-radius: 50%;} 
+         .eye-2{ width: 8%; padding-bottom: 20%; position: absolute; top: 13%; left: 28%; background: white; border-radius: 50%;} 
+      }
+   }
+   
 
-}
+} 
 
+/* 모바일 가로 & 테블릿 세로 (해상도 480px ~ 767px)*/ 
+@media all and (min-width:480px) and (max-width:767px) {
+   
+  
+  
+  
+} 
 
-// 태블릿   535px ~ 720px;
-@include tablet {
-
-}
-
-
-// 모바일에서 태블릿  335px ~ 535px;
-@include tabletToMobile  {
-
-}
-
-
-// 모바일   335px;
-@include mobile  {
-
-}
+/* 모바일 세로 (해상도 ~ 479px)*/ 
+@media all and (max-width:479px) {
+ 
+         }
