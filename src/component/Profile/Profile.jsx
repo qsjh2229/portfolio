@@ -82,6 +82,10 @@ const Profile = () => {
             <span className="des-big">꾸준히 성실하게 매일 나아가는 
             <br /> <strong>윤채욱</strong> 입니다</span>
          </div>
+         <div className="cir-1">
+            <div className="eye-1"></div>
+            <div className="eye-2"></div>
+         </div>
       </section>
    )
 }

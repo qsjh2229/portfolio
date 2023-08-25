@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
 *{   font-family: "Archivo Black", sans-serif;}
-.profile-sec { 
+.profile-sec {  overflow: hidden;
    width: 100%;  background: #87beff; display: flex; position: relative;   padding-bottom: 55.26%; height: 0;
    h1 {color: white;  font-size: 5rem; position: absolute; top: 10%;left: 13%;
       span{left: -25%; position: absolute;}
@@ -58,6 +58,10 @@
       .des-big {margin-top: 30px; color: rgba(255, 255, 255, 0.902); display: block; font-size: 6.5rem; font-weight: bold;
          strong{font-size: 7.3rem; font-weight: bolder; color: white;}
       }
+   }
+   .cir-1{ position: absolute; width: 30%; padding-bottom: 30%; border:10px solid white ; border-radius: 100%; right: -10%; bottom: -20%;
+      .eye-1{ width: 8%; padding-bottom: 20%; position: absolute; top: 15%; left: 13%; background: white; border-radius: 50%;} 
+      .eye-2{ width: 8%; padding-bottom: 20%; position: absolute; top: 13%; left: 28%; background: white; border-radius: 50%;} 
    }
 }
 
