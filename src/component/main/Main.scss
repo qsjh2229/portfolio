@@ -660,7 +660,7 @@
 
 
 /* 모바일 가로 & 테블릿 세로 (해상도 480px ~ 767px)*/ 
-@media all and (min-width:480px) and (max-width:780px) {
+@media all and (min-width:280px) and (max-width:780px) {
    
   
    .main-sec {
@@ -1324,7 +1324,7 @@
 } 
 
 /* 모바일 세로 (해상도 ~ 479px)*/ 
-@media all and (max-width:479px) {
+/* @media all and (max-width:479px) {
     
    .profile-sec {   height: fit-content; padding-bottom: 50px;
     
@@ -1395,4 +1395,4 @@
    
   
  
-         }
+         } */
