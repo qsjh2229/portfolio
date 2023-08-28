@@ -1,0 +1,41 @@
+.project-sec{
+   width: 100%; background: #3893FF; ; box-sizing: border-box; padding: 5% 0;
+   .ja-slide-wrap{
+      max-width: 1640px; width: 100%; margin: 0 auto; 
+      .title{ display: flex; flex-direction: row; justify-content: start;
+      h1{margin-right: 50px; font-size: 4rem; color: #FFE247;}}
+      .slide-j{ width: 100%;
+         ul{ width: 100%;display: flex; justify-content: space-between;
+            li{ position: relative; border-radius: 30px; margin-top: 50px; width: 30%;  
+               .white-box{ width: 100%;  height: 100%;overflow: hidden;border-radius: 30px;
+                  &:hover .desbox{ opacity: 1;}
+               }
+               img{height: 100%;
+                  width: 100%;
+               }
+               >span{color:yellow;  font-size: 1.3rem; position: absolute; top: 10%; left: 10%; }
+            
+               .desbox{position: absolute; top: 0; right: 0;  opacity: 0;transition: .3s; width: 60%; background: rgba(129, 18, 18, 0.445); height: 100%;
+                 border-radius: 0 30px 30px 0;
+                  padding: 5%;  box-sizing: border-box;   background: rgba(255, 255, 255, 0.349); overflow: hidden;
+                  .skill-box{display: flex; justify-content: space-around;
+                  img{width: 25%;}
+                 
+               }
+
+            }
+          
+            .yell-box{position: absolute; top: -5%; left: 10%; 
+               span{color: black; background: #FFE247; padding:8px 10px; border-radius: 30px; text-align: center; font-size: 2rem;}}
+            }
+         }
+      }
+
+   }
+}
+.slick-slider {
+   width: 100%;
+   display: block;
+  
+}
+ .center{color: rebeccapurple;}

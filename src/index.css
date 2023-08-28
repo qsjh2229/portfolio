@@ -3,7 +3,7 @@ html{ font-size:calc(0.42vw + 2px)  ;}
 body {margin: 0; padding : 0; }
 
 a{text-decoration: none; color: black;}
-img{object-fit: fill; border: none; margin: 0;}
+
 div, ul, li, a, p, canvas, span, em, section, header, article {margin: 0; padding: 0; /* box-sizing: border-box; */}
 li{list-style: none;}
 

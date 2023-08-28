@@ -17,7 +17,7 @@
          } 
       
    }
-   .p-rbox {   width: 60%;  text-align: left; margin-top: -3%; box-sizing: border-box;
+   .p-rbox {   width: 60%;  text-align: left; margin-top: -3%; box-sizing: border-box; padding-left: 3%;
       .edu-box {
          h2 {font-size: 3rem; margin-bottom: 20px;font-weight: bolder;
          }
@@ -46,7 +46,7 @@
          }
       }
       .contact-box { margin-top: 10px; margin-right: 10%;
-         h2 { font-size: 3rem; margin-bottom: 20px;font-weight: bolder; margin-top: 30px;
+         h2 { font-size: 3rem; margin-bottom: 20px;font-weight: bolder; margin-top: 30px; 
          }
          .con-trbox {
             tr {font-size: 1.8rem; font-weight: bold;
@@ -55,8 +55,8 @@
             }
          }
       }}
-      .des-big {margin-top: 30px; color: rgba(255, 255, 255, 0.902); display: block; font-size: 6.5rem; font-weight: bold;
-         strong{font-size: 7.3rem; font-weight: bolder; color: white;}
+      .des-big { width: 120%; margin-top: 30px; color: rgba(255, 255, 255, 0.902); display: block; font-size: 6.5rem; font-weight: bold;
+         strong{font-size: 7.3rem; font-weight: bolder; color: white; } 
       }
    }}
    .cir-1{ position: absolute; width: 30%; padding-bottom: 30%; border:10px solid white ; border-radius: 100%; right: -10%; bottom: -20%;   
@@ -94,14 +94,14 @@
 /* 테블릿 가로 (해상도 1023px ~ 1284px)*/ 
 @media all and (min-width:1023px) and (max-width:1284px) { 
    .profile-sec {  
-    
+    height: fit-content;
       h1 {
          span{   }
       }
-     .pr-wrap { 
+     .pr-wrap { align-items: center;box-sizing: border-box; height: 100%; margin-top: -10%;
       .p-lbox { 
-        
-     margin-top: 3%;
+        padding-bottom: 300px;
+     padding-top:20%; box-sizing: border-box;
         
             img {
       
@@ -167,7 +167,7 @@
 @media all and (min-width:781px) and (max-width:1023px) { 
 
    .profile-sec {  
-    
+    height: fit-content; padding-bottom: 10%;
       h1 {
          span{   }
       }
@@ -185,19 +185,19 @@
             } }
          
       }
-      .p-rbox {   margin-top: -20%;  padding: 0 5%;width: 100%; text-align: right;
-         .edu-box { text-align: right;
+      .p-rbox {   margin-top: 5%;  padding: 0 5%;width: 100%; text-align: left;
+         .edu-box { text-align: left;
             h2 {font-size: 3rem; margin-bottom: 25px;font-weight: bolder;width: 100%;
             }
             .edu-trbox { width: 100%; text-align: right;
                tr {font-size: 2rem; font-weight: bold;
-                  td {padding: 0 10px; font-weight: 800;  text-align: right;
+                  td {padding: 0 10px; font-weight: 800;  text-align: left;
                   }
                }
             }
          }
        .con-wrap{ 
-        flex-direction: row;  align-items: center; justify-content: end;
+        flex-direction: row;  align-items: center; justify-content: start;
        .sns-box {
             h2 { font-size: 3rem; margin-bottom: 25px;
             }
@@ -241,7 +241,7 @@
    
   
    .profile-sec {  
-    
+      height: fit-content; padding-bottom: 10%;
       h1 {
          span{   }
       }
@@ -302,8 +302,7 @@
          }
       }}
       .cir-1{ position: absolute; width: 30%; padding-bottom: 30%; border:10px solid white ; border-radius: 100%; right: -10%; bottom: -13%;
-         .eye-1{ width: 8%; padding-bottom: 20%; position: absolute; top: 15%; left: 13%; background: white; border-radius: 50%;} 
-         .eye-2{ width: 8%; padding-bottom: 20%; position: absolute; top: 13%; left: 28%; background: white; border-radius: 50%;} 
+       
       }
    }
    

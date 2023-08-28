@@ -34,8 +34,8 @@ ul{display: flex; flex-direction: column; padding: 20% 0; height: 100%; justify-
    .skill-sec{
  
       .s-wrap{ padding: 0 2%; box-sizing: border-box; justify-content: space-between;
-         .s-lbox{width: 900px;   height: 900px;
-      .front-box{width: 100%; background: white;height: 62%;  margin: 0 auto; border-radius: 100px; padding: 5%; box-sizing: border-box; display: flex; align-items: center;}
+         .s-lbox{width: 900px;   height: 900px; 
+      .front-box{width: 100%; background: white;height: 62%;  margin: 0 auto; border-radius: 100px; padding: 5%; box-sizing: border-box; display: flex; align-items: center; }
       ul{display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between; align-items:center; width: 100%; ;  box-sizing: border-box;  height: 100%;
          li{width: 150px; box-sizing: border-box; margin: 0 2%;
             .skill-box{width: 100%; box-sizing: border-box;
@@ -46,18 +46,11 @@ ul{display: flex; flex-direction: column; padding: 20% 0; height: 100%; justify-
       .s-rbox{width: 300px;  height: 900px; 
       .design-box{ width: 100%; background: white;height: 62%;  margin: 0 auto;  border-radius: 100px;
       ul{display: flex; flex-direction: column; padding: 20% 0; height: 100%; justify-content: space-between; align-items: center; width: 100%; box-sizing: border-box;
-      /*    li{width: 40%; 
-            div{width: 100%;
-               img{width: 100%;}
-            }
-         } */
+    
       }}
       
       }
-/*       .cir{position: absolute; background: #ffdf6b; border:solid white 8px; border-radius: 50%;}
-      .cir-1{position: absolute; top: -20%; left: -10%; width: 20%; padding-bottom: 20%;} 
-      .cir-2{position: absolute; bottom: 3%; left: 2%; width: 7%; padding-bottom: 7%; border: none; } 
-      .cir-3{position: absolute; bottom: -15%; right: -10%; width: 25%; padding-bottom: 25%;}  */
+
       }
       
       
@@ -87,10 +80,7 @@ ul{display: flex; flex-direction: column; padding: 20% 0; height: 100%; justify-
       }}
       
       }
-/*       .cir{position: absolute; background: #ffdf6b; border:solid white 8px; border-radius: 50%;}
-      .cir-1{position: absolute; top: -20%; left: -10%; width: 20%; padding-bottom: 20%;} 
-      .cir-2{position: absolute; bottom: 3%; left: 2%; width: 7%; padding-bottom: 7%; border: none; } 
-      .cir-3{position: absolute; bottom: -15%; right: -10%; width: 25%; padding-bottom: 25%;}  */
+
       }
       
       
@@ -119,10 +109,7 @@ ul{display: flex; flex-direction: column; padding: 20% 0; height: 100%; justify-
       }}
       
       }
-/*       .cir{position: absolute; background: #ffdf6b; border:solid white 8px; border-radius: 50%;}
-      .cir-1{position: absolute; top: -20%; left: -10%; width: 20%; padding-bottom: 20%;} 
-      .cir-2{position: absolute; bottom: 3%; left: 2%; width: 7%; padding-bottom: 7%; border: none; } 
-      .cir-3{position: absolute; bottom: -15%; right: -10%; width: 25%; padding-bottom: 25%;}  */
+
       }
       
       
@@ -138,7 +125,7 @@ ul{display: flex; flex-direction: column; padding: 20% 0; height: 100%; justify-
  position: relative;
       .s-wrap{ padding: 0 10%; box-sizing: border-box; justify-content: space-between; flex-direction: column;
          .s-lbox{width: 100%;   height: 300px; margin-top: 100px;
-      .front-box{ display: flex; align-items: center; height: 100%;}
+      .front-box{ display: flex; align-items: center; height: 100%; position: relative; z-index: 10;}
       ul{display: flex; flex-direction: row;  justify-content: space-around; align-items:center; 
          li{width: 70px; box-sizing: border-box; margin: 0 3%;
           
@@ -176,7 +163,7 @@ ul{display: flex; flex-direction: column; padding: 20% 0; height: 100%; justify-
               }
            }}
            .s-rbox{width: 100%;  height: 100px; margin: 50px  0 100px;
-           .design-box{ width: 100%; background: white;height: 100%;  margin: 0 auto;  border-radius: 30px;
+           .design-box{ width: 100%; background: white;height: 100%;  margin: 0 auto;  border-radius: 30px; position: relative; z-index: 10;
            ul{display: flex; flex-direction: row;  justify-content: space-around; align-items: center; width: 100%; box-sizing: border-box;  height: 100%;  padding: 0 10%;
               li{width:50px
                
@@ -187,7 +174,7 @@ ul{display: flex; flex-direction: column; padding: 20% 0; height: 100%; justify-
           .cir{position: absolute; background: #ffdf6b; border:solid white 8px; border-radius: 50%;}
            .cir-1{position: absolute; top: -10%; left: -5%; width: 40%; padding-bottom: 40%;} 
            .cir-2{position: absolute; bottom: 3%; left: 2%; width: 7%; padding-bottom: 7%; border: none; } 
-           .cir-3{position: absolute; bottom: -15%; right: -10%; width: 45%; padding-bottom: 45%;}  
+           .cir-3{position: absolute; bottom: 5%; right: -5%; width: 30%; padding-bottom: 30%;}  
            }
            
            
