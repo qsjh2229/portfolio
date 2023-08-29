@@ -15,7 +15,7 @@ const Home = () => {
          <a href="#profile"><Profile></Profile></a>
          <Skill></Skill>
          <Project/>
-        {/*  <Preview></Preview> */}
+          <Preview/>
       </main>
    )
 }
