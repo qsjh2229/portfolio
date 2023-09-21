@@ -2,7 +2,6 @@ import React from "react";
 import "./Skill.scss";
 import css from"../../img/CSS.svg"
 import Sass from"../../img/Sass.svg"
-i
 
 const Skill = () => {
   return (
