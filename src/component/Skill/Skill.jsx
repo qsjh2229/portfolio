@@ -1,6 +1,8 @@
 import React from "react";
 import "./Skill.scss";
-
+import css from"../../img/CSS.svg"
+import Sass from"../../img/Sass.svg"
+i
 
 const Skill = () => {
   return (
@@ -21,43 +23,50 @@ const Skill = () => {
             <ul>
               <li >
                 <div className="skill-box"> 
-                  <img src='img/CSS.svg' alt="" />
+                  <img src={css} alt="" />
                 </div>
               </li>
               <li >
                 <div  className="skill-box">
-                <img src='img/Sass.svg' alt="" />
+                <img src={Sass} alt="" />
                 </div>
               </li>
               <li >
                 <div className="skill-box"> 
-                <img src='img/HTML.svg' alt="" />
+              
+               <img src=  {process.env.PUBLIC_URL + "/img/HTML.svg"} alt="" />
                 </div>
               </li>
               <li >
                 <div  className="skill-box">
-                  <img src='img/Bootstrap.svg' alt="" />
+                  <img src= {process.env.PUBLIC_URL + "/img/Bootstrap.svg"} alt="" />
+                 
                 </div>
               </li>
               <li >
                 <div  className="skill-box">
-                  <img src='img/JavaScript.svg'alt="" />
+                 
+                  <img src= {process.env.PUBLIC_URL + "/img/JavaScript.svg"} alt="" />
                 </div>
               </li>
               <li >
                 <div className="skill-box"> 
-                  <img src='img/React-Light.svg' alt="" />
+                  
+                  <img src= {process.env.PUBLIC_URL + "/img/React-Light.svg"} alt="" />
                 </div>
               </li>
               <li >
                 <div className="skill-box"> 
-                  <img src='img/JQuery.svg' alt="" />
+                  
+                  <img src= {process.env.PUBLIC_URL + "/img/img/JQuery.svg"} alt="" />
+                  
                 </div>
               </li>
           
               <li >
                 <div className="skill-box"> 
-                  <img src='img/Git.svg' alt="" />
+                <img src= {process.env.PUBLIC_URL + "/img/Git.svg"} alt="" />
+                 
                 </div>
               </li>
          
@@ -69,17 +78,20 @@ const Skill = () => {
             <ul>
               <li>
               <div  className="skill-box">
-                  <img src="img/Illustrator.svg" alt="" />
+              <img src= {process.env.PUBLIC_URL + "/img/Illustrator.svg"} alt="" />
+                
                 </div>
               </li>
               <li>
               <div  className="skill-box">
-                  <img src="img/Figma-Light.svg" alt="" />
+              <img src= {process.env.PUBLIC_URL + "/img/Figma-Light.svg"} alt="" />
+                
                 </div>
               </li>
               <li>
               <div  className="skill-box">
-                  <img src="img/Photoshop.svg" alt="" />
+               
+                  <img src= {process.env.PUBLIC_URL + "/img/Photoshop.svg"} alt="" />
                 </div>
               </li>
            
