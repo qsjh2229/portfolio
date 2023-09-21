@@ -1,15 +1,6 @@
 import React from "react";
 import "./Skill.scss";
-import figma from"../../img/figma.png"
-import photoshop from"../../img/photoshop.png"
-import illustrator from"../../img/illustrator.png"
-import css3 from"../../img/css3.png"
-import html5 from"../../img/html5.png"
-import jquery from"../../img/jquery.png"
-import js from"../../img/js.png"
-import reactjs from"../../img/reactjs.png"
-import sass from"../../img/sass.png"
-import git from"../../img/Photoshop.svg"
+
 
 const Skill = () => {
   return (
@@ -30,32 +21,32 @@ const Skill = () => {
             <ul>
               <li >
                 <div className="skill-box"> 
-                  <img src='/img/CSS.svg' alt="" />
+                  <img src='img/CSS.svg' alt="" />
                 </div>
               </li>
               <li >
                 <div  className="skill-box">
-                <img src='/img/Sass.svg' alt="" />
+                <img src='img/Sass.svg' alt="" />
                 </div>
               </li>
               <li >
                 <div className="skill-box"> 
-                <img src='/img/HTML.svg' alt="" />
+                <img src='img/HTML.svg' alt="" />
                 </div>
               </li>
               <li >
                 <div  className="skill-box">
-                  <img src='/img/Bootstrap.svg' alt="" />
+                  <img src='img/Bootstrap.svg' alt="" />
                 </div>
               </li>
               <li >
                 <div  className="skill-box">
-                  <img src='/img/JavaScript.svg'alt="" />
+                  <img src='img/JavaScript.svg'alt="" />
                 </div>
               </li>
               <li >
                 <div className="skill-box"> 
-                  <img src='/img/React-Light.svg' alt="" />
+                  <img src='img/React-Light.svg' alt="" />
                 </div>
               </li>
               <li >
@@ -66,7 +57,7 @@ const Skill = () => {
           
               <li >
                 <div className="skill-box"> 
-                  <img src='/img/Git.svg' alt="" />
+                  <img src='img/Git.svg' alt="" />
                 </div>
               </li>
          
