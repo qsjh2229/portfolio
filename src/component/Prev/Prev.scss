@@ -102,10 +102,11 @@
     }
     }
    .nonres-pbox{
-    background: #FFE9B0; width: 100%; display: flex; height: 800px; padding: 100px 0; box-sizing: border-box; 
+    background: #FFE9B0; width: 100%; display: flex; ; padding: 100px 0; box-sizing: border-box; 
     .pbox-imgwrap{width: 60%; position: relative;box-sizing: border-box;
     img{position: absolute;
-      &:nth-child(1){width: 75%; top: 10%; left: 5%;  }
+      &:nth-child(1){width: 75%; top: 10%; left: 5%; margin-bottom: 100px;}
+      &:nth-child(2){width: 55%; top: 65%; left: 45%; margin-bottom: 100px;}
     }}
     .nonres-des-wrap{width: 40%; padding: 10% 0; padding-right: 5%; box-sizing: border-box;
     .span-box{ text-align: center;

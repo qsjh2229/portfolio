@@ -20,12 +20,13 @@ const MovieS = () => {
                 </div>
                 <span>참여인원 : 1명</span>
                 <span>  
-                    영화 api를 이용해 리액트로 만든 영화 사이트 입니다.
+                    영화 api를 이용해 리액트로 만든 영화 사이트 입니다. <br />
+                    
                     
                 </span>
                 <div className="link">
-                  <a href="https://goodsshop-five.vercel.app/"> 홈페이지 바로가기 </a>
-                  <a href="https://goodsshop-five.vercel.app/"> 깃허브 바로가기 </a>
+                  <a target='_blank' href="https://qsjh2229.github.io/appletheater/"> 홈페이지 바로가기 </a>
+                  <a  target='_blank' href="https://github.com/qsjh2229/appletheater"> 깃허브 바로가기 </a>
                 </div>
             </div>
          </div>

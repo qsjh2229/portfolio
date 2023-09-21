@@ -18,44 +18,52 @@ const Profile = () => {
           </div>
         </div>
         <div className="p-rbox">
-          <div className="edu-box">
-            <h2>EDUCATION</h2>
-
-            <div className="edu-trbox">
+        <div className="edu-box">
+          <h2>EDUCATION</h2>
+          <table className="edu-trbox">
+            <thead>
               <tr>
                 <td>2016</td>
-                <td> 안산공업고등학교</td>
+                <td>안산공업고등학교</td>
                 <td>시각디자인학과졸업</td>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td>2023</td>
                 <td>남서울대학교</td>
-                <td> 유리세라믹 디자인학과졸업</td>
+                <td>유리세라믹 디자인학과졸업</td>
               </tr>
               <tr>
                 <td>2023</td>
                 <td>더휴먼아카데미</td>
-                <td>React, vue 프레 임춰크 기반 프론트엔드 개발 앙성 수료</td>
+                <td>React, vue 프레임워크 기반 프론트엔드 개발 앙성 수료</td>
               </tr>
-            </div>
-          </div>
+            </tbody>
+          </table>
+        </div>
+
           <div className="con-wrap">
             <div className="contact-box">
               <h2>CONTACT</h2>
-              <div className="con-trbox">
-                <tr>
-                  <td>Phone</td>
-                  <td>010 - 9802 - 3066</td>
-                </tr>
-                <tr>
-                  <td>E-mail</td>
-                  <td>qaz03256@naver.com</td>
-                </tr>
-                <tr>
-                  <td>Instagram</td>
-                  <td>chae_ook</td>
-                </tr>
-              </div>
+              <table className="con-trbox">
+                <thead>
+                  <tr>
+                    <td>Phone</td>
+                    <td>010 - 9802 - 3066</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>E-mail</td>
+                    <td>qaz03256@naver.com</td>
+                  </tr>
+                  <tr>
+                    <td>Instagram</td>
+                    <td>chae_ook</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
             <div className="sns-box">
               <h2>SNS</h2>

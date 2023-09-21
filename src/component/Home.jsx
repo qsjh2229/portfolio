@@ -12,7 +12,7 @@ const Home = () => {
       <main>
        
          <Main />
-         <a href="#profile"><Profile></Profile></a>
+        <Profile></Profile>
          <Skill></Skill>
          <Project/>
           <Preview/>
