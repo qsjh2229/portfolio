@@ -17,19 +17,19 @@ const PreKor = () => {
            <div className='span-box'>
                  <span>한국 공예 문화 진흥원</span>
                  <span>관공서 클론 코딩</span>
-                 <span></span>
+                 
                  <div className="skill"> 
                
                <span>JAVASCRIPT</span>
                <span>CSS</span>
              
-               <span>JAVASCRIPT</span>
+               
                </div>
                <span>참여인원 : 1명</span>
-               <span>  
+               {/* <span>  
                한국 공예 문화 진흥원을 자바스크립트와 CSS를 이용해 클론 코딩 하였습니다.
                    
-               </span>
+               </span> */}
                <span>  
   
                </span>

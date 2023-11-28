@@ -5,7 +5,7 @@ import Sass from"../../img/Sass.svg"
 
 const Skill = () => {
   return (
-    <section className="skill-sec">
+    <section id="skill" className="skill-sec">
        <div className="s-wrap">
            <div className="cir-1 cir">
               <div className="eye1"></div>

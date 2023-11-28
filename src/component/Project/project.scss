@@ -31,13 +31,14 @@
          width: 100%;
          ul {
             width: 100%;
-            display: flex;
+       
             justify-content: space-between;
             height: fit-content;
             li {
                position: relative;
+               z-index: 10;
                border-radius: 30px;
-               height: 280px;
+              
                .white-box {
                   width: 100%;
                   height: 100%;
@@ -195,13 +196,13 @@
          width: 100%;
          ul {
             width: 100%;
-            display: flex;
+           
             justify-content: space-between;
             height: fit-content;
             li {
                position: relative;
                border-radius: 30px;
-               height: 300px;
+           
                .white-box {
                   width: 100%;
                   height: 100%;
@@ -237,7 +238,7 @@
                   }
 
                   &:hover {
-                     transform: scale(1.1);
+                     transform: scale(1.1); z-index: 10;
                      box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
                         rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
                   }
@@ -629,7 +630,42 @@
          }
       }
    }
+   
+
+.slick-list {
+   // 부모
+  
+   z-index: 10; padding: 40px 0px !important;
+ }
+ 
+ .slick-slide > div {
+   // 자식 안에 div
+    padding: 0 20px !important;box-sizing: border-box;
+ 
+ }
 }
-.swiper-wrapper {
-   padding: 5% 0;
-}
+
+
+
+
+
+
+
+
+
+
+.slick-list {
+   // 부모
+   height: 100%;
+   position: relative;
+   margin: 0 -10px;
+   box-sizing: border-box; 
+   z-index: 10; padding: 20px 0 !important;
+ }
+
+ .slick-slide > div {
+   // 자식 안에 div
+   margin: 10px;
+   box-sizing: border-box;
+ }
+

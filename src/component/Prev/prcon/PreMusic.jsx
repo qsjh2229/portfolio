@@ -96,9 +96,7 @@ const PreMusic = () => {
                 <span>CSS</span>
                 </div>
                 <span>참여인원 : 1명</span>
-                <span>  
-                    자바스크립트를 이용해 
-                </span>
+              
                 <div className="link">
                 <a target='_blank' href="https://qsjh2229.github.io/music-web/#"> 홈페이지 바로가기 </a>
                       <a  target='_blank' href="https://github.com/qsjh2229/music-web"> 깃허브 바로가기 </a>

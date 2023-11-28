@@ -103,12 +103,13 @@ const PreArr = () => {
             <span>CSS</span>
             </div>
             <span>참여인원 : 1명</span>
-            <span>  
-                
-            </span>
+            {/* <span>  
+                아르르 쇼핑몰을 자바스크립트를 이용 했으며 <br />
+                반응형으로 작업 하였습니다
+            </span> */}
             <div className="link">
-            <a target='_blank' href="https://qsjh2229.github.io/arrr-clone/"> 홈페이지 바로가기 </a>
-                  <a  target='_blank' href="https://github.com/qsjh2229/arrr-clone"> 깃허브 바로가기 </a>
+            <a  href="https://qsjh2229.github.io/arrr-clone/" target='_blank' rel="noreferrer noopener"> 홈페이지 바로가기 </a>
+                  <a   href="https://github.com/qsjh2229/arrr-clone" target='_blank' rel="noreferrer noopener"> 깃허브 바로가기 </a>
             </div>
         </div>
       </div>
