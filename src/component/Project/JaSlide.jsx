@@ -11,11 +11,12 @@ const JaSlide = () => {
       infinite: true,
       speed: 500,
       autoplay: true,
-      slidesToShow: 3,
+      slidesToShow: 2,
       slidesToScroll: 1,
       centerMode:true,
       centerPadding:'0px',autoHeight : true, 
       
+     
    
     };
 
@@ -120,7 +121,7 @@ const JaSlide = () => {
                                  <div>
                                     <a
                                        target='_blank'
-                                       href='qsjh2229.github.io/arrr-clone/'
+                                       href='https://qsjh2229.github.io/arrr-clone/'
                                     >
                                        <span>웹사이트 바로가기</span>
                                        <img
