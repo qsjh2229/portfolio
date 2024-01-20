@@ -57,7 +57,7 @@ const ReactSlide = () => {
                                  <div>
                                     <a
                                        target='_blank'
-                                       href='https://github.com/qsjh2229/goodsshop'
+                                       href='https://goodsshop-five.vercel.app/'
                                     >
                                        <span>웹사이트 바로가기</span>
                                        <img
@@ -118,7 +118,7 @@ const ReactSlide = () => {
                                  <div>
                                     <a
                                        target='_blank'
-                                       href='https://qsjh2229.github.io/appletheater'
+                                       href="https://appletheater.vercel.app/movie" 
                                     >
                                        <span>웹사이트 바로가기</span>
                                        <img
@@ -180,7 +180,7 @@ const ReactSlide = () => {
                                  <div>
                                     <a
                                        target='_blank'
-                                       href='https://qsjh2229.github.io/music-web/'
+                                       href='https://portfolio-nu-one-58.vercel.app/'
                                     >
                                        <span>웹사이트 바로가기</span>
                                        <img

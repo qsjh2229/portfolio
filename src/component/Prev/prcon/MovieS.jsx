@@ -25,7 +25,7 @@ const MovieS = () => {
                     
                 </span> */}
                 <div className="link">
-                  <a target='_blank' href="https://qsjh2229.github.io/appletheater/"  > 홈페이지 바로가기 </a>
+                  <a target='_blank' href="https://appletheater.vercel.app/movie"  > 홈페이지 바로가기 </a>
                   <a  target='_blank' href="https://github.com/qsjh2229/appletheater" > 깃허브 바로가기 </a>
                 </div>
             </div>

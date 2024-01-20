@@ -8,78 +8,78 @@ const Goods = () => {
             <div className="res-flex-box fbbox1">
               <img
                 src={process.env.PUBLIC_URL + "/img/pimg/p-goods-mobile.png"}
-                alt="imac - 아르르 쇼핑몰 사진"
+                alt="목업 샷 쇼핑몰"
               />
               <img
                 src={process.env.PUBLIC_URL + "/img/pimg/p-goods1-mobile.png"}
-                alt="imac - 아르르 쇼핑몰 사진"
+                alt="목업 샷 쇼핑몰"
               />
               <img
                 src={process.env.PUBLIC_URL + "/img/pimg/p-goods2-mobile.png"}
-                alt="imac - 아르르 쇼핑몰 사진"
+                alt="목업 샷 쇼핑몰"
               />
               <img
                 src={process.env.PUBLIC_URL + "/img/pimg/p-goods3-mobile.png"}
-                alt="imac - 아르르 쇼핑몰 사진"
+                alt="목업 샷 쇼핑몰"
               />
               <img
                 src={process.env.PUBLIC_URL + "/img/pimg/p-goods4-mobile.png"}
-                alt="imac - 아르르 쇼핑몰 사진"
+                alt="목업 샷 쇼핑몰"
               />
               <img
                 src={process.env.PUBLIC_URL + "/img/pimg/p-goods5-mobile.png"}
-                alt="imac - 아르르 쇼핑몰 사진"
+                alt="목업 샷 쇼핑몰"
               />
               <img
                 src={process.env.PUBLIC_URL + "/img/pimg/p-goods6-mobile.png"}
-                alt="imac - 아르르 쇼핑몰 사진"
+                alt="목업 샷 쇼핑몰"
               />
               <img
                 src={process.env.PUBLIC_URL + "/img/pimg/p-goods-mobile.png"}
-                alt="imac - 아르르 쇼핑몰 사진"
+                alt="목업 샷 쇼핑몰"
               />
               <img
                 src={process.env.PUBLIC_URL + "/img/pimg/p-goods2-mobile.png"}
-                alt="imac - 아르르 쇼핑몰 사진"
+                alt="목업 샷 쇼핑몰"
               />
             </div>
             <div className="res-flex-box fbbox2">
             <img className="tb-img"
                 src={process.env.PUBLIC_URL + "/img/pimg/p-goods-tablet2.png"}
-                alt="imac - 아르르 쇼핑몰 사진"
+                alt="목업 샷 쇼핑몰"
               />
     
               <img className="fbbox2-m-img"
                 src={process.env.PUBLIC_URL + "/img/pimg/p-goods2-mobile.png"}
-                alt="imac - 아르르 쇼핑몰 사진"
+                alt="목업 샷 쇼핑몰"
               /> 
               <img className="fbbox3-l-img"
                 src={process.env.PUBLIC_URL + "/img/pimg/p-goods-lab.png"}
-                alt="imac - 아르르 쇼핑몰 사진"
+                alt="목업 샷 쇼핑몰"
               /> 
             </div>
             <div className="res-flex-box fbbox3">
             <img className="fbbox3-pc-img"
                 src={process.env.PUBLIC_URL + "/img/pimg/p-goods-pc.png"}
-                alt="imac - 아르르 쇼핑몰 사진"
+                alt="목업 샷 쇼핑몰"
               /> 
               <img className="fbbox3-l-img"
                 src={process.env.PUBLIC_URL + "/img/pimg/p-goods-tablet.png"}
-                alt="imac - 아르르 쇼핑몰 사진"
+                alt="목업 샷 쇼핑몰"
               /> 
             </div>
             <div className="res-flex-box fbbox4">
             <img className="fbbox4-1"
                 src={process.env.PUBLIC_URL + "/img/pimg/p-goods-tablet1.png"}
-                alt="imac - 아르르 쇼핑몰 사진"
+                alt="목업 샷 쇼핑몰"
               /> 
             <img className="fbbox4-2"
                 src={process.env.PUBLIC_URL + "/img/pimg/p-goods-tablet.png"}
-                alt="imac - 아르르 쇼핑몰 사진"
+                alt="목업 샷 쇼핑몰"
               /> 
             <img  className="fbbox4-3"
                 src={process.env.PUBLIC_URL + "/img/pimg/p-goods5-mobile.png"}
-                alt="imac - 아르르 쇼핑몰 사진"
+                alt="목업 샷 쇼핑몰"
               />
               </div>
           </div>
@@ -101,7 +101,7 @@ const Goods = () => {
                 </span> */}
                 <div className="link">
                   <a href="https://goodsshop-five.vercel.app/" target="_blank"> 홈페이지 바로가기 </a>
-                  <a href="https://goodsshop-five.vercel.app/" target="_blank"> 깃허브 바로가기 </a>
+                  <a href="https://github.com/qsjh2229/goodsshop" target="_blank"> 깃허브 바로가기 </a>
                 </div>
             </div>
           </div>
