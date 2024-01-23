@@ -9,7 +9,7 @@ import "./Prev.scss";
 
 const Preview = () => {
   return (
-    <section className="preview-sec">
+    <section id="preview" className="preview-sec">
     <div className="container">
         <Goods />
         <Movie />
