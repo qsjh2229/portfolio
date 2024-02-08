@@ -118,7 +118,7 @@ const ReactSlide = () => {
                                  <div>
                                     <a
                                        target='_blank'
-                                       href="https://appletheater.vercel.app/movie" 
+                                       href="https://appletheater.vercel.app/" 
                                     >
                                        <span>웹사이트 바로가기</span>
                                        <img
